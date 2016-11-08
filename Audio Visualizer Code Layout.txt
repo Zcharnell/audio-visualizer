@@ -1,0 +1,12 @@
+Audio Visualizer Code Layout
+
+===========================html===================================
+-audio input
+-div for the visualizer area
+	-divs for each bar
+
+=========================javascript===============================
+-set up audio
+-get the frequencies in uint8 (0-255)
+-organize the frequencies by time
+-alter the height of the bars based on the time of the audio and the frequencies at that time
